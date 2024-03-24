@@ -1,0 +1,32 @@
+body {
+    padding: 10px;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #465ab8, #261360);
+    color: whitesmoke;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bolder;
+}
+
+#search {
+    width: 100%;
+}
+
+.search-bar {
+
+}
+
+.weather-area {
+    
+}
