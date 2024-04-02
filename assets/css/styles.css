@@ -23,6 +23,11 @@ h2 {
     width: 100%;
 }
 
+.data-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .card-container {
     display: flex;
 }
