@@ -24,7 +24,7 @@ h2 {
 }
 
 .card-container {
-    display: inline;
+    display: flex;
 }
 
 .f-card-body {
