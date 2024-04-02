@@ -15,7 +15,7 @@ let cityNames = [];
 function convertLatLong() {
 
 let cityName = cityNames.pop(); 
-let directGeoConv = 'http://api.openweathermap.org/geo/1.0/direct'
+let directGeoConv = 'https://api.openweathermap.org/geo/1.0/direct'
 
 directGeoConv = `${directGeoConv}?q=${cityName}&limit=1&appid=${directGeoApiKey}`
 
@@ -124,7 +124,7 @@ function printCurrentWeather(dataList1) {
       // Current icon
       const currentIcon = document.createElement('img');
       let weatherIcon = dataList1.weather[0].icon
-      currentIcon.src=`http://openweathermap.org/img/wn/${weatherIcon}.png`
+      currentIcon.src=`https://openweathermap.org/img/wn/${weatherIcon}.png`
     
       // Current temp
       const currentTemp = document.createElement('p');
@@ -180,7 +180,7 @@ function printForecast(dataList) {
             // Day 1 icon
             const icon1 = document.createElement('img');
             let weatherIcon1 = dataList[0].weather[0].icon;
-            icon1.src=`http://openweathermap.org/img/wn/${weatherIcon1}.png`;
+            icon1.src=`https://openweathermap.org/img/wn/${weatherIcon1}.png`;
 
             // Day 1 temperature
             const temp1 = document.createElement('p');
@@ -213,7 +213,7 @@ function printForecast(dataList) {
             // Day 2 icon
             const icon2 = document.createElement('img');
             let weatherIcon2 = dataList[8].weather[0].icon;
-            icon2.src=`http://openweathermap.org/img/wn/${weatherIcon2}.png`;
+            icon2.src=`https://openweathermap.org/img/wn/${weatherIcon2}.png`;
 
             // Day 2 temperature
             const temp2 = document.createElement('p');
@@ -246,7 +246,7 @@ function printForecast(dataList) {
             // Day 3 icon
             const icon3 = document.createElement('img');
             let weatherIcon3 = dataList[16].weather[0].icon;
-            icon3.src=`http://openweathermap.org/img/wn/${weatherIcon3}.png`;
+            icon3.src=`https://openweathermap.org/img/wn/${weatherIcon3}.png`;
 
             // Day 3 temperature
             const temp3 = document.createElement('p');
@@ -279,7 +279,7 @@ function printForecast(dataList) {
             // Day 4 icon
             const icon4 = document.createElement('img');
             let weatherIcon4 = dataList[24].weather[0].icon;
-            icon4.src=`http://openweathermap.org/img/wn/${weatherIcon4}.png`;
+            icon4.src=`https://openweathermap.org/img/wn/${weatherIcon4}.png`;
 
             // Day 4 temperature
             const temp4 = document.createElement('p');
@@ -312,7 +312,7 @@ function printForecast(dataList) {
             // Day 5 icon
             const icon5 = document.createElement('img');
             let weatherIcon5 = dataList[32].weather[0].icon;
-            icon5.src=`http://openweathermap.org/img/wn/${weatherIcon5}.png`;
+            icon5.src=`https://openweathermap.org/img/wn/${weatherIcon5}.png`;
 
             // Day 5 temperature
             const temp5 = document.createElement('p');
