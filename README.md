@@ -21,6 +21,5 @@ Then, simply type in the name of a city and view the weather!
 This project was completed by Brendan Trepal using the mockup image.
 
 Technologies used:
-- Day.js
 - Bootstrap
 - OpenWeatherMap API
