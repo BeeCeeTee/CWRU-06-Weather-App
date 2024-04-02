@@ -23,10 +23,14 @@ h2 {
     width: 100%;
 }
 
-.search-bar {
-
+.card-container {
+    display: inline;
 }
 
-.weather-area {
-    
+.f-card-body {
+    background-color: #323d4f;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
 }
